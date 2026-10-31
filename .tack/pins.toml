@@ -1,0 +1,13 @@
+[tack]
+  recomposable = true
+
+[shorturls]
+  gh = "github:{path}"
+
+[all_follow]
+  nixpkgs = "nixpkgs"
+
+[inputs]
+  nixpkgs.url     = "https://channels.nixos.org/nixpkgs-unstable/nixexprs.tar.xz"
+  flake-parts.url = "gh:hercules-ci/flake-parts"
+  all-systems.url = "gh:nix-systems/default"
